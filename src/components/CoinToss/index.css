@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.app-container {
+  background: linear-gradient(to left, #f9d423, #e2a139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.coin-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.heading {
+  color: #a35200;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 5px;
+}
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  margin-top: 10px;
+  border-width: 0px;
+  height: 25px;
+  border-radius: 5px;
+}
+.toss-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
